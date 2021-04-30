@@ -1,0 +1,45 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+    font-family: sans-serif;
+    background: #d2d9e4;
+}
+
+.container{
+    position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+    /*display: inline-flex;*/
+}
+
+.reloj {
+    display: flex;
+	/*display: inline-block;*/
+    background: #d1dae3;
+	color: #71767f;
+	padding: 30px;
+	font-weight: bold;
+	font-size: 40px;
+	border-radius: 10px;
+	border: 4px solid #cad3dc;
+	box-shadow: -8px -8px 15px rgba(255,255,255,0.5),
+				10px 10px 10px rgba(0,0,0,0.1),
+				inset -8px -8px 15px rgba(255,255,255,0.5),
+				inset 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.reloj span{   /* div  */
+    color: #71767f;
+    font-size: 50px;
+    font-family: monospace;
+   /* border: 1px solid #fffbfb;
+    margin: 5px; */
+}
